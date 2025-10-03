@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: auto;
+}
+
+
+header {
+    background-color: green;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: solid 8px blue;
+    padding: 50px;
+}
+
+h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+p {
+    color: blue
+    font-family "Ubuntu", sans-serif;
+}
+
+
+#Foto-Pefil {
+    
+    width: 300px;
+    border-radius: 30px;
+    float: center;
+}
