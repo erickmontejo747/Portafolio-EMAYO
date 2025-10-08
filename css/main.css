@@ -18,7 +18,7 @@ h1{
     font-size: 50px;
 }
 
-h2 {
+h2,h3 {
     font-family: "Ubuntu", sans-serif;
 }
 
@@ -32,5 +32,73 @@ p {
     
     width: 300px;
     border-radius: 30px;
-    float: center;
+    float: right;
+}
+
+main {
+
+    overflow: hidden;
+
+}
+
+section {
+    overflow: hidden;
+}
+
+#proyectos {
+    padding: 20px 50px;
+    border-top: solid 8px blue;
+    margin-top: 30px;
+    text-align: center;
+}
+.proyecto {
+    float: left;
+    width: 33%;
+    margin-top: 20px;
+}
+
+.proyecto img {
+    width: 90px;
+    border-radius: 15px;
+}
+
+.proyecto p{
+    text-align: justifuy;
+    padding: 10px  5px;
+    color: green;
+}
+
+.proyecto h3 {
+    color: red;
+    font-weight: lighter;
+}
+
+#habilidades {
+    overflow: hidden;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-top: solid 8px black;
+}
+
+progress {
+
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.Lista-tecnologias {
+    list-style: none;
+    display: grid;
+    margin-left: grid;
+    gap: 15px;
+}
+
+.Lista-tecnologias{
+    background-color: gray;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-align: center;
 }
