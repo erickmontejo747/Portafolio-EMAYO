@@ -4,6 +4,10 @@
     margin: auto;
 }
 
+body {
+
+    font-family: "SF Pro Text", sans-serif;
+}
 
 header {
     background-color: green;
@@ -22,9 +26,37 @@ h2,h3 {
     font-family: "Ubuntu", sans-serif;
 }
 
+.bi{
+    color:purple
+}
+
+
 p {
     color: blue
     font-family "Ubuntu", sans-serif;
+}
+
+#Menu-Principal {
+    list-style: none;
+    display: flex;
+}
+
+nav {
+    overflow: hidden;
+    padding: 20px 0px;
+}
+
+#Menu-Principal a {
+    text-decoration: none;
+    color: purple;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+#Menu-Principal a:hover {
+    color: #ffffff;
+    background-color: purple;
 }
 
 
@@ -51,8 +83,12 @@ section {
     margin-top: 30px;
     text-align: center;
 }
+
+#Lista-Proyectos {
+    display: flex;
+}
+
 .proyecto {
-    float: left;
     width: 33%;
     margin-top: 20px;
 }
@@ -90,15 +126,49 @@ progress {
 
 .Lista-tecnologias {
     list-style: none;
-    display: grid;
+    display: flex;
     margin-left: grid;
     gap: 15px;
 }
 
-.Lista-tecnologias{
+.Lista-tecnologias li {
     background-color: gray;
     color: black;
     padding: 12px 20px;
     border-radius: 25px;
     text-align: center;
+}
+
+#contacto {
+    padding: 40px;
+
+}
+
+.campos {
+
+    width: 70%;
+    clear: both; 
+    font-size: 18px;   
+
+}
+
+.campos label {
+
+    padding-right: 20px;
+}
+.campos input {
+
+    padding: 10px;
+    border: solid 2px gray;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    overflow: hidden ;
+    padding: 40px 0;
+    background-color: purple;
+    text-align: center;
+    border-top: solid 8px yellow;
 }
